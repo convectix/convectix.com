@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+a {
+    color: #fff;
+}
+
+
+header {
+    display: flex;
+}
+#logo {
+    width: 200px;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+#projects div {
+    padding: 0 20px 15px 20px;
+}
+
+ul {
+    list-style: none;
+}
