@@ -1,20 +1,20 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
 body {
     background-color: black;
     color: white;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
 }
+
 a {
     color: #fff;
 }
 
-
 header {
     display: flex;
-    padding-bottom: 7px;
+    align-items:flex-end;
+    padding: 1em 0 1.3em 0;
 }
 #logo {
     width: 160px;
