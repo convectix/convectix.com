@@ -31,3 +31,7 @@ header {
 ul {
     list-style: none;
 }
+
+#publishing, #team, footer {
+    padding-left: 20px;
+}
