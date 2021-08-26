@@ -2,37 +2,43 @@
 /* CSS Document */
 
 body {
+    margin: 0;
     background-color: black;
     color: white;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+section, header, footer {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 a {
     color: #fff;
 }
 
-header {
-    display: flex;
-    align-items:flex-end;
-    padding: 1em 0 1.3em 0;
-}
-#logo {
-    width: 160px;
-    margin: 0 20px;
-}
-
-#projects {
-    display: flex;
-    flex-wrap: wrap;
-}
-#projects div {
-    padding: 0 20px 15px 20px;
-}
-
 ul {
     list-style: none;
 }
 
-#publishing, #team, footer {
-    padding-left: 20px;
+header {
+    display: flex;
+    align-items:flex-end;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+}
+
+#logo {
+    width: 160px;
+    margin-right: 20px;
+}
+
+#projects {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects div {
+    padding: 0 20px 15px 20px;
 }
